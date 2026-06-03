@@ -1,5 +1,9 @@
 # Анализ оттока клиентов телеком-компании
 
+<div align="center">
+    <img src="01_customer_churn_telecom.png" width="800">
+</div>
+
 ## Summary проекта
 
 Компания столкнулась с повышенным уровнем оттока клиентов, что негативно влияет на удержание аудитории и стабильность выручки. В связи с этим бизнесу необходимо определить ключевые факторы, связанные с churn, выявить наиболее рискованные сегменты клиентов и сформировать рекомендации по снижению уровня оттока.
@@ -106,7 +110,6 @@ group by churn
 Компания теряет почти каждого 4 клиента. Далее нужно выяснить, что формирует такой высокий churn rate.
 
 <br>
-
 <div align="center">
     <img src="01_customer_churn_telecom.png" width="800">
 </div>
@@ -218,6 +221,11 @@ from all_churn_rate acr
 cross join general_churn_rate gcr
 order by churn_rate desc ```
 ```
+<br>
+<div align="center">
+    <img src="02_customer_churn_telecom.png" width="800">
+</div>
+<br>
 
 | parametr | segment | churn_rate | general_churn_rate | churn_diff |
 | --- | --- | --- | --- | --- |
@@ -277,6 +285,6 @@ order by churn_rate desc ```
 ---
 
 **Инструменты проекта**
-
 - SQL
+- Python (matplotlib, pandas, sqlalchemy)
 - Power BI
