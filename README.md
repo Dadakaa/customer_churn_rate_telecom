@@ -1,7 +1,9 @@
 # Анализ оттока клиентов телеком-компании
 
 <div align="center">
-    <img src="01_customer_churn_telecom.png" width="800">
+    <img src="01_bi_main.jpg" width="800">
+    <br>
+    <em>Рис. 1 - Фрагмент разработанного дашборда Power BI</em>
 </div>
 
 ## Summary проекта
@@ -112,6 +114,8 @@ group by churn
 <br>
 <div align="center">
     <img src="01_customer_churn_telecom.png" width="800">
+	<br>
+	<em>Рис. 2 - Графики из matplotlib с распределение клиентов по churn rate</em>
 </div>
 
 ### 2.4 Выбор значимых параметров для анализа churn
@@ -221,11 +225,6 @@ from all_churn_rate acr
 cross join general_churn_rate gcr
 order by churn_rate desc ```
 ```
-<br>
-<div align="center">
-    <img src="02_customer_churn_telecom.png" width="800">
-</div>
-<br>
 
 | parametr | segment | churn_rate | general_churn_rate | churn_diff |
 | --- | --- | --- | --- | --- |
@@ -251,6 +250,22 @@ order by churn_rate desc ```
 | tech_support | No internet service | 0.07 | 0.27 | -0.20 |
 | streaming_tv | No internet service | 0.07 | 0.27 | -0.20 |
 | contract | Two year | 0.03 | 0.27 | -0.24 |
+
+<br>
+<div align="center">
+    <img src="02_bi_customer_segmentation_&_risk_profile.jpg" width="800">
+	<br>
+	<em>Рис. 3 - Анализ в Power BI</em>
+</div>
+<br>
+
+<br>
+<div align="center">
+    <img src="02_customer_churn_telecom.png" width="800">
+	<br>
+	<em>Рис. 4 - Анализ в matplotlib</em>
+</div>
+<br>
 
 ### 3. Результаты анализа
 
