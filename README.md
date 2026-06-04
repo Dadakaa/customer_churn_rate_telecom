@@ -1,4 +1,4 @@
-# Анализ Оттока Клиентов Телеком-Компании (SQL, Python, Power BI)
+# Анализ Оттока Клиентов Телеком-Компании
 
 <div align="center">
     <img src="01_bi_main.jpg" width="800">
